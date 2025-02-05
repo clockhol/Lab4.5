@@ -1,4 +1,29 @@
 /* Add screen styles below */
-a.active {
+body {
+    background: #F7FFF7;
+}
+
+section {
+    margin: auto;
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+    line-height: 2;
+}
+
+h1 {
+    background: #1A535C; 
+    color: #4ECDC4;
+    padding: 20px;
+    margin: 0;
+    font-family: Inter, Impact, 'Arial Narrow Bold', sans-serif; 
+    font-weight: bold;
+    border-bottom: 5px solid;
+    border-bottom-color: #FF6B6B;
+}
+
+h2 {
+    color: rgba(26, 83, 92,80);
+    font-family: Inter, Impact, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
