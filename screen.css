@@ -33,23 +33,35 @@ h1 {
     line-height: 2;
 }
 
+img {
+    border-radius: 18px;
+  }
+
+#image {
+    height: 334px;
+    width: 443px;
+    border: 2px solid;
+    border-color: #1A535C;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+}
+
 #description {
     height: 334px;
     background: #FFE66D;
     border: 2px solid;
     border-color: #1A535C;
     border-radius: 20px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+    color: #1A535C;
+    font-family: Inter, Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 #description h3 {
-    color: #1A535C;
-    font-family: Inter, Impact, 'Arial Narrow Bold', sans-serif;
     margin: 20px;
 }
 
 #description p {
-    color: #1A535C;
-    font-family: Inter, Impact, 'Arial Narrow Bold', sans-serif;
     margin: 20px;
     line-height: 1.5;
 }
